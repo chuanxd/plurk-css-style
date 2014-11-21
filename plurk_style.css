@@ -174,7 +174,7 @@ img[src="http://static.plurk.com/button/plurk.png"] {
 
 /* Share Plurk Button */
 #sharePlurk {
-	background: transparent url(http://s.plurklayouts.com/images/layouts/shareplurk.png) no-repeat scroll top left;
+	/*background: transparent url(http://s.plurklayouts.com/images/layouts/shareplurk.png) no-repeat scroll top left;*/
 	border-style: none none none none;
 	border-width: 0px 0px 0px 0px;
 	height: 66px;
@@ -207,7 +207,7 @@ img[src="http://static.plurk.com/button/plurk.png"] {
 
 
 #widget-gfx {
-	background: transparent url(http://s.plurklayouts.com/images/layouts/widget.png) no-repeat scroll 0 0 !important;
+	/*background: transparent url(http://s.plurklayouts.com/images/layouts/widget.png) no-repeat scroll 0 0 !important;*/
 	height: 33px;
 	margin-left: auto;
 	margin-right: auto;
@@ -216,7 +216,7 @@ img[src="http://static.plurk.com/button/plurk.png"] {
 	color: transparent !important;
 }
 #mobile-gfx {
-	background: transparent url(http://s.plurklayouts.com/images/layouts/mobile.png) no-repeat scroll 0 0 !important;
+	/*background: transparent url(http://s.plurklayouts.com/images/layouts/mobile.png) no-repeat scroll 0 0 !important;*/
 	height: 33px;
 	margin-left: auto;
 	margin-right: auto;
@@ -225,7 +225,7 @@ img[src="http://static.plurk.com/button/plurk.png"] {
 }
 
 #twitter-gfx {
-	background: transparent url(http://s.plurklayouts.com/images/layouts/twitter.png) no-repeat scroll 0 0 !important;
+	/*background: transparent url(http://s.plurklayouts.com/images/layouts/twitter.png) no-repeat scroll 0 0 !important;*/
 	height: 45px;
 	margin-left: auto;
 	margin-right: auto;
@@ -234,7 +234,7 @@ img[src="http://static.plurk.com/button/plurk.png"] {
 }
 
 #dashboard-invite {
-    background: transparent url(http://s.plurklayouts.com/images/layouts/plurk_extras/invite-friends.png) no-repeat scroll 0 8px;
+    /*background: transparent url(http://s.plurklayouts.com/images/layouts/plurk_extras/invite-friends.png) no-repeat scroll 0 8px;*/
     height: 63px;
     overflow: hidden;
     color: transparent !important;
@@ -244,7 +244,7 @@ img[src="http://static.plurk.com/button/plurk.png"] {
 }
 
 #dashboard-invite:hover {
-    background: transparent url(http://s.plurklayouts.com/images/layouts/plurk_extras/invite-friends.png) no-repeat scroll 0 -58px;
+    /*background: transparent url(http://s.plurklayouts.com/images/layouts/plurk_extras/invite-friends.png) no-repeat scroll 0 -58px;*/
     height: 63px;
     overflow: hidden;
     color: transparent !important;
