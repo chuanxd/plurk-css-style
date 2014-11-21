@@ -1,0 +1,1271 @@
+/*
+Credits to Plurk Layouts for the orginal template
+   Edits done by layoutfreak.blogspot.com
+
+                           Credits to 7te.org for the timeline background
+
+                     Please credit LayoutFREAK! if you use this CSS template
+*/
+
+
+
+
+/*----------------------- PART 1 OF EDITING PLURK LAYOUT --------------------------*/
+/*-------------------- BODY - TIMELINE - LOGO - TIMELINE EXTRAS ---------------------*/
+
+/* Main Body and Background of Body */
+body, html {
+  background: #06070c url(https://lh3.googleusercontent.com/-6xQRFjuN0DU/T1R-JoEvknI/AAAAAAAADec/18YChDZm_80/s2048/MainBodyandBackgroundBlack2.jpg);
+background-repeat:no-repeat;
+
+}
+
+/* Timeline Holder Background */
+#timeline_holder {
+  background: #151515 url(https://lh6.googleusercontent.com/-lYVJDLCi8L4/TsJgTWVlveI/AAAAAAAADI0/KnzYJE1X_P0/s2048/DSC_23452.JPG);
+background-repeat:no-repeat;
+border: 0px solid transparent;
+}
+
+/* Timeline Holder Plurks */
+#timeline_holder table td {
+-moz-border-radius:8px 8px 8px 8px;
+-webkit-border-radius: 8px;
+
+color: #000000;
+
+
+}
+
+/* Page Title */
+#page_title {
+   color: #ffbe70;
+}
+
+/* LOGO */
+#dynamic_logo{
+    position:absolute;
+    margin:3px 0 0 5px;
+    width:168px;
+    height:162px;
+background: transparent;
+}
+
+#dynamic_logo img{
+    height:0px;
+    width:0px;
+}
+
+/* Time above Plurk Timeline */
+#time_show span {
+color: #ffbe70; 
+font-weight:bold;
+margin: -5px;
+}
+
+/* Evening, Night, Day, Morning */
+.evening, .night, .day, .morning {
+	background: transparent URL() no-repeat scroll 0 0; border:none;
+}
+
+/* Today and Time of Plurks */
+#bottom_line {
+
+font-size: 11px;
+margin-top: -2px;
+border-top:0px solid #b9aeab;
+border-bottom: 2px solid #171c20; 
+background: #171c20; 
+}
+
+.bottom_start , .bottom_end {color:#e1c576 !important;font-weight:bold;font-size:11px ;}
+
+/* Day Separator */
+.day_bg .div_inner {
+	background: transparent no-repeat scroll center;
+	border-left: 0px none;
+	border-right: 0px solid #efefef;
+color: transparent !important;
+
+}
+
+.day_start, .day {
+	font-weight: normal;
+color: #000000 !important;   
+}
+
+.day_start .bottom_start, .day_start .div_start {
+margin-top: -1px;
+margin-left: 1px;
+color: #ffffff !important;
+	text-align: left;	
+}
+/* End Day Separator */
+
+/* Today, yesterday, 2 days ago etc text on actual time line area */
+.day_start .div_bottom,  .day_start .bottom_start {color: #7b867d !important;}
+
+/*----------------------------- PART 2 OF EDITING PLURK LAYOUT --------------------*/
+/*------------------------- DASHBOARD - HEADINGS - KARMA ETC ---------------------*/
+
+/* All Plurks My Plurks*/
+#filter_tab { 
+-moz-border-radius:8px 8px 8px 8px;
+-webkit-border-radius: 8px;
+border: 0 !important;
+margin-top: 1px;
+}
+
+#filter_tab a.off_tab { 
+background: transparent;
+color: #c3bf9d; 
+border:0 !important;
+
+}
+
+#filter_tab a.off_tab:hover { 
+color: #7b867d; 
+border:0 !important;
+
+}
+
+#filter_tab a.filter_selected {
+border:0 !important;
+background: #171c20;
+color: #ffbe70; 
+letter-spacing: 1px; 
+}
+#filter_tab a.filter_selected:hover {}
+
+
+
+/* Plurk Textarea */
+textarea#input_big, textarea#input_permalink { 
+	
+	background: transparent;
+        border-bottom: 1px solid #ffbe70;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        
+color: #ffbe70 !important;
+}
+/* Block User Button */
+.friend_man.block {
+	
+	-moz-border-radius: 4px 4px 4px 4px;
+	-khtml-border-radius: 4px;
+	-webkit-border-radius: 4px;
+background: #7b867d;
+color: #e1c576 !important;
+}
+/* End Block User Button */
+
+/* Replace Big Plurk Button */
+img[src="http://static.plurk.com/button/plurk.png"] {  
+ filter:alpha(opacity=0);
+ -moz-opacity:.0;
+ opacity:.0;
+}
+
+.submit_img {
+	background: transparent url(http://i49.tinypic.com/ws4j0j.jpg) no-repeat scroll top left;
+	height: 38px;
+	padding-left: 82px;
+	width: 0px;
+	overflow: hidden;
+	margin-top: -40px;
+}
+/* End Replace Big Plurk Button */
+
+
+/* Share Plurk Button */
+#sharePlurk {
+	background: transparent url(http://s.plurklayouts.com/images/layouts/shareplurk.png) no-repeat scroll top left;
+	border-style: none none none none;
+	border-width: 0px 0px 0px 0px;
+	height: 66px;
+}
+
+#sharePlurk div {
+	border-style: none none none none;
+	border-width: 0px 0px 0px 0px;
+	padding: 0px 0px;
+}
+
+#sharePlurk span {
+	background: transparent none no-repeat scroll left bottom;
+	padding: 1px 0px 1px 9px;
+}
+#sharePlurk #invite_url {
+    margin-left: 1px !important;
+    margin-top: 0px !important;
+}
+
+#sharePlurk p {
+    margin: 4px 13px 0;
+}
+
+.cmp_wj {
+    height: 21px;
+}
+/* End Share Plurk Button */
+
+
+
+a#widget-gfx {
+	background: transparent url(http://s.plurklayouts.com/images/layouts/widget.png) no-repeat scroll 0 0 !important;
+	height: 33px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 9px 1px 0px 40px;
+overflow: hidden;
+	color: transparent !important;
+}
+a#mobile-gfx {
+	background: transparent url(http://s.plurklayouts.com/images/layouts/mobile.png) no-repeat scroll 0 0 !important;
+	height: 33px;
+	margin-left: auto;
+	margin-right: auto;
+overflow: hidden;
+	color: transparent !important;
+}
+
+a#twitter-gfx {
+	background: transparent url(http://s.plurklayouts.com/images/layouts/twitter.png) no-repeat scroll 0 0 !important;
+	height: 45px;
+	margin-left: auto;
+	margin-right: auto;
+overflow: hidden;
+	color: transparent !important;
+}
+
+a#dashboard-invite {
+    background: transparent url(http://s.plurklayouts.com/images/layouts/plurk_extras/invite-friends.png) no-repeat scroll 0 8px;
+    height: 63px;
+    overflow: hidden;
+    color: transparent !important;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px none #000000;
+}
+
+a#dashboard-invite:hover {
+    background: transparent url(http://s.plurklayouts.com/images/layouts/plurk_extras/invite-friends.png) no-repeat scroll 0 -58px;
+    height: 63px;
+    overflow: hidden;
+    color: transparent !important;
+}
+.cmp_invite, .cmp_widget-gfx, .cmp_twitter-gfx, .cmp_mobile-gfx {
+	background: transparent none no-repeat scroll 0 0;
+	height: 0px;
+	width: 0px;
+}
+
+
+/*Dashboard Background and Info*/
+.segment-content  {
+	background:transparent;
+color: #cdcdcd;
+        padding: 2px;
+	margin: 1px;
+	}
+
+
+
+ #dashboard_holder a {
+background:;
+}
+
+#dashboard_holder a:hover {
+background:;
+}
+/* Dashboard */
+#plurk-dashboard {
+background: transparent !important;
+border:0 !important;
+}
+
+/*Dashboard link*/
+#plurk-dashboard a {
+color: #7b867d;
+text-decoration: underline;
+border:0;
+}
+/*Dashboard link hover*/
+#plurk-dashboard a:hover {
+color: #ffbe70;
+text-decoration: none;
+border:0;
+}
+/*Dashboard Friends Section*/
+#show_all_friends
+{ 
+background: #171c20;
+	padding-top: 5px;
+	padding-bottom: 11px; 
+	text-align:center; 
+color: #fff;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-khtml-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+/*Dashboard Stats area*/
+#dash-stats
+{ 
+background: #171c20;
+border:0px solid  #fff;
+color: #e1c576;
+padding-top: 5px;
+	padding-bottom: 38px; 
+text-align: center;
+}
+
+/*Dashboard Friends area*/
+#dash-friends { 
+
+padding-top: 5px;
+	padding-bottom: 11px; 
+padding-left: 5px;
+padding-right: 5px;
+text-align: center;
+background: #171c20;
+border:0px solid  #fff;
+color: #cdcdcd;
+}
+
+/*Dashboard Fans*/
+#dash-fans { 
+padding-top: 5px;
+padding-bottom: 11px; 
+text-align: center; 
+background: #171c20;
+color: #c3bf9d;
+border:0px solid  #fff;
+}
+
+/*Background colour for time and Plurking Textarea*/
+#plurk_form {
+ margin-top: 40px;
+padding: 10px;      
+background: transparent;
+border:0px solid  #fff;
+color: #cdcdcd;
+}
+
+
+
+/* New Plurking area */
+#pane_plurk {
+border: 0px solid #918e79;
+background: #171c20;
+color: #e1c576 !important;
+}
+/* Plurk Search and Plurk tab */
+#toggle_tab li {
+background: #171c20;
+color: #c3bf9d !important;
+}
+.plurkaction{clear:both;padding:8px;}.plurkaction,#toggle_tab li.tt_selected,#plurk-dashboard,#more_options_link{
+border: 0px solid #fff;
+background: #171c20;
+}
+/* End */
+
+/*Search Feature */
+#pane_search .main_poster{width:775px; color: #cdcdcd !important;}
+
+#pane_search .orange-but{margin-bottom:10px;}
+/* End */
+
+/*Saved searches overall text size etc */
+.saved_searches{font-size:12px;overflow:auto;padding:15px 0 0;}
+/* End */
+
+/* Saved Searches LINKS */
+.saved_searches a{color:#fff!important;text-decoration:underline!important;}
+/* End */
+
+/* Saved Search bold text */
+.saved_searches b{font-size:16px; color: #b6b6b6 !important;}
+/* End */
+
+/* Delete saved search css *
+/.del_search{cursor:pointer;background-color:#FFF;border:1px solid #f0f0f0;margin-left:9px;padding:1px 4px;}
+/* End */
+
+.hot_searches a{ color: #fff !important;}
+.hot_searches a:hover{ color:#ffbe70 !important;}
+
+/* CSS for Search feature search button */
+input.orange-but {
+background:#7b867d none repeat scroll 0 0 !important;
+border: 1px solid #7b867d !important;
+color:#fff;
+cursor:pointer;
+font-size:13px;
+padding:2px 4px;
+vertical-align:middle;
+width:auto;}
+/* End */
+
+/* Text area for Search Feature */
+input#current_query{background: transparent !important; 
+border-bottom: 1px solid #ffbe70 !important;
+border-right: transparent;
+border-top: transparent;
+border-left: transparent;
+color: #ffbe70 !important;}
+/* END */
+
+/*Daily Photo*/
+#snap_photo a {
+color: #c3bf9d;
+}
+
+#snap_photo a:hover {
+color: #7b867d;
+}
+
+#snap_photo b {
+color: #c3bf9d;
+}
+/*End*/
+
+
+/* About Me */
+#dash-profile {
+background: #171c20;
+color: #c3bf9d;
+border:0;
+padding: 10px;
+	
+}
+#span_years {
+color: #ffbe70;
+font-weight: bold; }
+
+#location {
+color: #e1c576;
+font-style: italic;
+}
+
+p#relationship_container {
+background: #171c20;
+color: #c3bf9d;
+border:0;
+padding: 10px;
+	
+}
+
+#full_name {
+font-size:17px;
+color:#cbcfb8;
+}
+p#about_me {
+background: #171c20;
+border:0px solid  #fff;
+color: #c3bf9d;
+margin:2px;
+padding: 10px;
+text-align:left;
+}
+
+#dash-stats h2, #dash-friends h2, #dash-fans h2 {  
+
+color: #f0800f;
+	  font-size:29px;
+	  line-height:125%;
+	  text-align:left;
+          border:0;
+          font-weight: none; 
+}
+
+/*Karma Count */
+#karma {
+color: #c3bf9d;
+font-size: 28px;
+}
+
+.karma_hover { 
+color: #c3bf9d;
+}
+.karma_arrow {  
+ filter:alpha(opacity=0);
+ -moz-opacity:.0;
+ opacity:.0;
+}
+
+.cmp_karma_up {
+background:transparent url(/static/icons/icons_png.png) 0 -28px no-repeat;
+width:8px;
+height:10px;
+margin-top: 10px;
+}
+
+/* Follow Friend/Fan Box */
+.friend_man.add_follow, .friend_man.remove, .friend_man.add_friend, .friend_man.pending {
+    -moz-border-radius: 6px 6px 6px 6px;
+    -khtml-border-radius: 6px;
+    -webkit-border-radius: 6px;
+background: #7b867d;
+color: #e1c576 !important;
+}
+/* End Follow Friend/Fan Box */
+
+/*Send Private Plurk Box*/ 
+.friend_man.private_plurk { 
+-moz-border-radius: 6px 6px 6px 6px; 
+    -khtml-border-radius: 6px; 
+    -webkit-border-radius: 6px; 
+background: #7b867d;
+color: #e1c576 !important;
+}
+/*End Send Private Plurk Box*/
+
+/*Extra*/
+.award_bar { 
+height: 50px; 
+}
+
+.friend_holder {
+margin-bottom: 4px;
+}
+
+.friend_holder table { 
+margin-left: auto;
+margin-right: auto;
+}
+.friend_holder .user_link{
+    height:25px!important;width:25px!important; 
+}
+    
+.friend_holder img{
+    width:25px;
+    height:25px; 
+}
+
+/*Your name by Plurk box - not in timeline */
+.qual_holder{ 
+color : #7b867d;
+
+}
+.mini_form .qual_holder {
+color: #7b867d !important;
+background: #ffffff;
+}
+
+/*Dashboard Stats*/
+#dash-stats table td {
+color: #c3bf9d;
+font-weight:bold;
+}
+
+/*Dashboard Header2*/
+#plurk-dashboard h2{
+color: #7b867d;
+font-family:Denise Sans;
+font-size: 29px;
+border-bottom: 0px solid #83DF45;
+}
+
+
+/*Number of Characters left to use*/
+.char_updater {
+color:#c3bf9d;
+}
+/* Number of characters left 31-0 */
+.char_updater.highlight_light {
+	color: #c3bf9d;
+font-style: italic;
+background: transparent !important;
+}
+/* End Number of characters left 31-0 */
+
+/* Too many characters in input form */
+.char_highlight {
+background: transparent !important;
+	border-radius: 2px;
+	padding-left: 2px;
+color: #ff0000 !important;
+}
+/* End Too many characters in input form */
+
+
+/*Private Plurks Languages etc etc*/
+#more_options .on, #more_options #more_options_holder {
+border:0;
+background: transparent;
+color: #fcffe8;
+}
+#more_options_link{
+background: transparent url(/static/timeline/private-lock.png) no-repeat 4px 3px;
+border:0;
+color: #e1c576 !important;
+outline:none;position:relative;
+}
+#more_options .on{
+border:0;
+background: transparent url(/static/timeline/private-lock.png) no-repeat 4px 3px;
+color: #000;
+}
+/*------------------------ PART 3 OF EDITING PLURK LAYOUT -------------------------*/
+/*---------------------------- ALL LINKS AND FORMATTING OF LINKS ------------------*/
+
+
+/*URL in Plurks. Colour, Visited etc*/
+.plurk a.ex_link {
+ color:#ffbe70;
+font-weight: bold;
+text-decoration:normal;
+}
+
+.plurk a.ex_link:hover {
+color: #ffbe70;
+
+font-weight: bold;
+border-bottom: 0px solid #acacac;
+text-decoration:normal;
+
+}
+
+.plurk a.ex_link:visited {
+
+}
+
+a:link { 
+color: #7b867d;
+text-transform: normal;
+}
+
+a:visited, a:active { 
+color: #7b867d;
+text-transform: normal;}
+
+a:hover { 
+border:0;
+color: #7b867d;
+text-transform: normal;
+}
+
+#top_bar #edit_link:hover, #reply h2 {
+color: #FFF;
+font-weight:bold;
+}
+
+#reply  #reply_box {
+background: #fff;
+}
+
+#reply h2 {
+background: #e2b223;
+}
+
+#reply #reply_box_holder {
+background: #fff;
+}
+
+/*Edit Area*/
+
+#top_login a:hover{color: #fff;   text-transform: normal;}
+#top_bar .content  a:hover{color:#c3bf9d;   text-transform: normal;}
+#top_bar .content  a#edit_link{background:transparent; padding-bottom:1px; color:#e1c576;  text-transform: normal;} 
+#top_bar .content  a:hover#edit_link{color:#e1c576;  text-transform: normal;}
+
+#top_login {
+
+margin-bottom: -1px;
+
+}
+
+/* Top Login */
+#top_login a {
+
+border:0;
+font-weight: bold;
+text-decoration: normal;
+color: #7b867d;
+}
+
+#top_login a:hover {
+
+border:0;
+text-decoration: normal;
+color: #c3bf9d;
+}
+/* Footer Links */
+#footer {
+color: #c3bf9d;
+}
+#footer a {
+
+color: #c3bf9d;
+border-bottom:1px solid #c3bf9d;
+font-weight: bold;
+}
+
+ #footer a:hover {
+
+color: #7b867d;
+border:0;
+text-decoration: underline;
+font-weight: bold;
+}
+
+/* Top Bar */
+#top_bar a {
+color: #7b867d;
+font-weight: regular;
+text-transform: normal;
+border:0;
+}
+
+#top_bar a:hover {
+       color: #e2b223;
+background: transparent;
+font-wright: regular;
+text-transform: normal;
+border:0;
+}
+
+#alert_beacon{color:#fff;}
+
+/*------------------------- PART 4 OF EDITING PLURK LAYOUT ------------------------*/
+/*----------------- TIMELINE EXTRAS - PLURKS AND OPTIONS - PLURK TABS ---------------*/
+
+/* Updater Responses and new Plurks */
+#updater {
+padding: 2px;
+text-transform: none;
+border:0;
+color: #ea5b20;
+  background: #171c20;
+}
+
+#updater .text {
+border:0;
+color: #ffbe70;
+ 
+font-size: 11px;
+}
+#updater a {
+color: #c3bf9d;
+
+text-transform: none;
+}
+
+#updater a:hover {
+color:#e1c576;
+text-transform: none;
+
+}
+
+
+/* Plurk: View before opening any Plurk */
+.plurk_cnt {
+background: #fff repeat scroll top left !important;
+color: #000000 !important;
+font-size: 11px;
+border-right: 2px solid #f1f1f1;
+border-bottom: 2px solid #f1f1f1;
+line-height: 13px;
+}
+
+/* Time above Plurk Timeline */
+
+
+/* Search Form in Plurk Timeline */
+#mini_search .i_text { 
+
+background: #FFF;
+border:0;
+color: #e2b223;
+
+	width:160px;
+padding: 2px;
+
+}
+
+#mini_search .i_button { 
+background: #FFF;
+border:0;
+color: #e2b223;
+padding:2px;
+}
+
+
+
+/* CSS code ... in between Plurk and number of Plurk responses - all in timeline */
+.dots .inner { 
+background: #fff;
+	margin-left: 2px; 
+color: #000 !important;
+}
+
+
+/* Youtube, Images etc hover in Plurks */
+.youtube img,.pictureservices img { border: none; opacity:.9; filter: alpha(opacity=90); }
+.youtube:hover img,.pictureservices:hover img { border:none; opacity:1; filter: alpha(opacity=100); }
+
+/* Plurk: Background where responses are */
+.plurk_box .list { 
+background: #ffffff repeat scroll top left;
+border-color: #e0e0e0;
+	border-radius: 8px;
+	border-width: 0px;
+color: #000000 !important;
+}
+
+/* Delete Save Edit Mute Unmute Close */
+.manager .action { color:#000000; margin-left:5px; }
+.manager a:hover { text-decoration: none!important; }
+.manager .cancel { color:#ff0000; margin-right:5px; }
+.manager .delete { color:#ffbe70; margin-right:5px; }
+.unmute { color:#7b867d!important; }
+.mute {color:#7b867d !important;}
+
+
+/* Border around Plurk Picture in Timeline */
+.p_img {
+border: 1px solid #fff;
+}
+
+/* Plurking Textarea*/
+#input_small { 
+height: 40px;
+
+color: #e2b223 !important;
+border: 1px solid #ffffff;
+background: #ffffff; !important; 
+}
+/*Plurk: Textarea to responde to a Plurk */
+textarea#input_small {
+background: #ffffff !important;
+border: 1px solid #888; 
+
+color: #000000 !important;
+}
+
+/ * Plurk: Response List Rounded Corners */
+.list {
+
+	-moz-border-radius: 0px 0px 6px 6px;
+	-khtml-border-radius: 0px 0px 6px 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+}
+
+
+/* Plurk: "Recent Plurk Responses" area */
+.plurk_box .caption {
+border:0;
+font-size: 11px;
+color: #c3bf9d;
+background: #252c34;	
+}
+
+/* Plurk: "Plurk Page" area */
+.info_box {
+
+color: #000 !important;
+background: #FFF;		
+border:0;
+font-size: 11px;
+
+	
+}
+/* Plurk: Color of Text on Empty Message List */
+.list .empty {
+	color: #000000;
+}
+
+
+/* Plurk: Response Caption Bars */
+.plurk_box {
+	-moz-border-radius: 6px;
+	-khtml-border-radius:6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+}
+/* Plurk: Mini Form Text */
+.plurk_box .highlight_light {
+	color: #ff0000 !important;
+}
+/* Plurk: Drop Arrow on Message Box Qualifiers */
+.dd_img img[src="http://statics.plurk.com/123918e3c72ef7b92780fffc44085dfb.gif"] {
+	background-position: left top;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 0px;
+	width: 0px;
+}
+
+.dd_img img[src="http://statics.plurk.com/123918e3c72ef7b92780fffc44085dfb.gif"] {
+	height: 12px;
+	padding-left: 14px;
+	background: url(http://statics.plurk.com/123918e3c72ef7b92780fffc44085dfb.gif) no-repeat scroll left top;
+	margin-left: 1px;
+}
+/* Drop Arrow on Message Box Qualifiers */
+
+
+/* Plurk: Plurk Text when Plurk opened */
+.plurk_box .plurk_cnt {
+
+background: #ffffff !important;
+border-bottom: 1px solid #f7f7f7;
+color: #000000 !important;
+border-top: 0px solid #e0e0e0;
+padding-top: 3px;
+padding-bottom: 3px;
+}
+
+/* Plurk: Responding area */
+.plurk_box .mini_form {
+
+background: #fff;
+color: #000000 !important;
+border-right: 1px solid #fff;
+border-left:0;
+border-bottom:0;
+border-top:0;}
+/* Plurk: Mini Form Character Colour */
+.mini_form .char_updater {
+color: #000000 !important;
+background: #fff;
+}
+/*Number of Responses on Plurks in Timeline*/
+.response_count {
+background: transparent;
+color: #ffffff !important;
+padding-left: 4px;
+padding-right: 6px;
+padding-top: 1px;
+padding-bottom: 4px;
+}
+
+ 
+
+/*New responses on Plurks*/
+.new .response_count {
+background: #7b867d;
+border: 1px solid #7b867d;
+color: #fff !important;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 3px;
+}
+
+
+/*--------------------------- PART 5 OF EDITING PLURK LAYOUT ----------------------*/
+/*---------- MENU INFO - MEMBER INFO - QUALIFIERS AND BOLD ETC FORMATTING ---------*/
+
+
+/* Bold Italic and Underline */
+
+strong {
+        color: #c3bf9d;
+		cursor: default;}
+
+strong:hover { 
+        color: #c3bf9d;
+		cursor: default;}
+
+
+	
+i {
+        color: #c3bf9d;
+		cursor: default;
+	}
+
+i:hover { 
+ color: #c3bf9d;
+		cursor: default; 
+}
+
+u {
+         color: #c3bf9d;
+		cursor: default;
+		border-bottom: 0px solid #FFFFFF;
+	}
+
+u:hover { 
+         color: #c3bf9d;
+		cursor: default;
+		border-bottom: 0px solid #FFFFFF;}
+
+/* Firefox Selection */
+::-moz-selection{
+background: #3c3a38;
+color:#fff;
+}
+
+/*Selection on browsers*/
+::selection {
+background: #3c3a38;
+color:#fff;
+}
+
+
+
+/* Tool Tip */
+.tooltip_cnt{
+background: #171c20;
+border:0px solid  #000;
+color: #c3bf9d;
+padding:5px;
+margin-top:1px;
+font-size:11px;
+}
+
+.AmiTT_main b {
+color: #7b867d;
+font-weight:bold;
+}
+
+.AmiTT_main {
+color: #FFF;
+line-height:1.2;
+border-top: 1px solid #7b867d;
+position:absolute;
+text-align:left;
+width:209px;
+z-index:2000;
+
+}
+
+/* Drop Arrow on User Menu */
+.cmp_tooltips-down {
+	height: 17px;
+	background: transparent url(http://s.plurklayouts.com/images/layouts/black_down.png) no-repeat scroll left top;
+}
+/* End Drop Arrow on User Menu */
+
+.cmp_tooltips-up {
+	height: 17px;
+	background: transparent url(http://s.plurklayouts.com/images/layouts/black_up.png) no-repeat scroll left top;
+}
+/* Up Arrow on User Menu */
+
+
+
+
+/* Color Box on User Menu */
+.AmiMenu.info_menu {
+background: #070e01;
+border:1px solid  #070e01;
+color: #e2b223;
+}
+.AmiMenu.info_menu .block {
+	background:#252c34;
+
+}
+.AmiMenu.info_menu td.on, .AmiMenu.info_menu .user_info.on {
+	background: #7b867d;
+
+}
+
+.AmiMenu.info_menu .separator {
+background: #181818;
+
+
+}
+.AmiMenu.info_menu .user_info.on b {
+
+color: #fff;
+	font-weight: bold;
+}
+/* END Color Box on User Menu */
+
+
+/* Loves Likes Shares Gives Hates Wants etc */
+.q_freestyle { 
+background: #7b867d;
+border: 1px solid #7b867d;
+color: #fff !important;
+
+}.q_loves { 
+border-top: 1px solid #BF1717; 
+border-left: 1px solid #BF1717; 
+
+border-right: 1px solid #8F0808;
+border-bottom: 1px solid #8F0808;
+color: #ffffff;
+background: #B20C0C;
+}
+.q_likes { 
+border-top: 1px solid #BF2F32; 
+border-left: 1px solid #BF2F32; 
+border-right: 1px solid #AF0A0D; 
+border-bottom: 1px solid #AF0A0D;
+color: #ffffff;
+background: #CB2728;
+}
+.q_shares { 
+border-top: 1px solid #BF5F5F; 
+border-left: 1px solid #BF5F5F; 
+border-right: 1px solid #9F3B3B; 
+border-bottom: 1px solid #9F3B3B;
+color: #ffffff;
+background: #A74949;
+}
+.q_gives { 
+border-top: 1px solid #5F0C0C; 
+border-left: 1px solid #5F0C0C; 
+border-right: 1px solid #3F0000; 
+border-bottom: 1px solid #3F0000;
+color: #ffffff;
+background: #620E0E;
+}
+
+.q_hates { 
+border-top: 1px solid #3F3F3F; 
+border-left: 1px solid #3F3F3F; 
+border-right: 1px solid #000000; 
+border-bottom: 1px solid #000000;
+color: #ffffff;
+background: #111111;
+}
+.q_wants { 
+ border-top: 1px solid #A1BF5F; 
+border-left: 1px solid #A1BF5F; 
+border-right: 1px solid #809F3B; 
+border-bottom: 1px solid #809F3B;
+color: #ffffff;
+background: #8DB241;
+}
+
+.q_wishes{ 
+border-top: 1px solid #67AF2B; 
+border-left: 1px solid #67AF2B; 
+border-right: 1px solid #4A8F11; 
+border-bottom: 1px solid #4A8F11;
+color: #ffffff;
+background: #5BB017;
+}
+
+.q_needs { 
+border-top: 1px solid #A1BF5F; 
+border-left: 1px solid #A1BF5F; 
+border-right: 1px solid #839F45; 
+border-bottom: 1px solid #839F45;
+color: #ffffff;
+background: #7A9A37;
+}
+
+.q_will { 
+border-top: 1px solid #BF839C; 
+border-left: 1px solid #BF839C; 
+border-right: 1px solid #9F5976; 
+border-bottom: 1px solid #9F5976;
+color: #ffffff;
+background: #B46D89;
+}
+
+.q_hopes { 
+border-top: 1px solid #F67FFF; 
+border-left: 1px solid #F67FFF; 
+border-right: 1px solid #C540CF; 
+border-bottom: 1px solid #C540CF; 
+color: #ffffff;
+background: #E05BE9;
+}
+
+.q_asks { 
+border-top: 1px solid #AA8BDF; 
+border-left: 1px solid #AA8BDF; 
+border-right: 1px solid #825FBF; 
+border-bottom: 1px solid #825FBF;
+color: #ffffff;
+background: #8361BC;
+}
+
+.q_has { 
+border-top: 1px solid #8F8F8F; 
+border-left: 1px solid #8F8F8F; 
+border-right: 1px solid #4F4F4F; 
+border-bottom: 1px solid #4F4F4F;
+color: #ffffff;
+background: #777777;
+}
+
+.q_was { 
+border-top: 1px solid #7F7F7F; 
+border-left: 1px solid #7F7F7F; 
+border-right: 1px solid #3F3F3F; 
+border-bottom: 1px solid #3F3F3F;
+color: #ffffff;
+background: #525252;
+}
+
+.q_wonders { 
+border-top: 1px solid #5373BF; 
+border-left: 1px solid #5373BF; 
+border-right: 1px solid #31519F; 
+border-bottom: 1px solid #31519F;
+color: #ffffff;
+background: #2E4E9E;
+}
+
+.q_feels { 
+ border-top: 1px solid #53A7DF; 
+border-left: 1px solid #53A7DF; 
+border-right: 1px solid #2380BF; 
+border-bottom: 1px solid #2380BF;
+color: #ffffff;
+background: #2D83BE;
+}
+
+.q_thinks { 
+border-top: 1px solid #99C3DF; 
+border-left: 1px solid #99C3DF; 
+border-right: 1px solid #5F98BF; 
+border-bottom: 1px solid #5F98BF; 
+color: #ffffff;
+background: #689CC1;
+}
+
+.q_says { 
+background: #7b867d;
+border: 1px solid #7b867d;
+color: #fff !important;
+}
+
+.q_is { 
+border-top: 1px solid #DF8453; 
+border-left: 1px solid #DF8453; 
+border-right: 1px solid #CF6A33; 
+border-bottom: 1px solid #CF6A33;
+color: #ffffff;
+background: #E57C43;
+}
+
+.qual_menu .q_shares{
+color: #ffffff !important; 
+border-top: 1px solid #3F2F2B !important; 
+border-left: 1px solid #3F2F2B; 
+border-right: 1px solid #0F0B09; 
+border-bottom: 1px solid #0F0B09 !important;}
+
+.share_menu{
+border-top: 1px solid #3F2F2B !important;
+border-left: 1px solid #3F2F2B !important; 
+border-right: 1px solid #0F0B09 !important;
+border-bottom: 1px solid #0F0B09 !important;
+
+color: #ffffff !important; 
+
+ font-size:16px;}
+
+.mini_menu .share_menu{
+border-top: 1px solid #3F2F2B; border-left: 1px solid #3F2F2B; border-right: 1px solid #0F0B09; border-bottom: 1px solid #0F0B09;
+color: #ffffff !important;  font-size:12px;}
+
+.share_menu .on{
+border-top: 1px solid #3F2F2B; border-left: 1px solid #3F2F2B; border-right: 1px solid #0F0B09; border-bottom: 1px solid #0F0B09;
+background-color:#8d0000;
+color:#FFF !important;}
+
+.q_video,.q_link{
+border-left:1px solid #ffffff !important;}
