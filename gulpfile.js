@@ -6,3 +6,6 @@ gulp.task('minify-css', function() {
     .pipe(minifyCSS({keepBreaks:true}))
     .pipe(gulp.dest('./dist/'))
 });
+gulp.task('default', ['minify-css'], function() {
+
+});
